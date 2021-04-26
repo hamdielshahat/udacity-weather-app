@@ -9,7 +9,8 @@ const zip = document.getElementById("zip");
 const content = document.getElementById("content");
 const feeling = document.getElementById("feelings");
 
-const baseApiUrl = "http://api.openweathermap.org/data/2.5/weather?zip=";
+const baseApiUrl =
+  "http://api.openweathermap.org/data/2.5/weather?units=imperial&zip=";
 // const baseApiUrl = "http://api.openweathermap.org/data/2.5/forecast?zip=";
 const apiKey = "&appid=cd1b984a8cc578e85ef671fc7b3dea87";
 
